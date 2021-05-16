@@ -15,6 +15,8 @@ The strategy asks you to start a series of bets with ¤1, and then double your b
 
 # The function
 
+Writen for Python 3.
+
 The `martingale` function is an infinite generator for the amounts you would bet in each round in a series of losses.
 
 The generalized strategy is to bet the minimum that a win would strictly exceed the cost of the current series. It is assumed that all bets must be whole multiples of ¤1. 
